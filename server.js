@@ -12,7 +12,7 @@ const port = process.env.PORT || 7000;
 //MIDDLEWARE
 app.use(express.json())
 app.use(cors({
-    origin: ['', 'http://localhost5173'],
+    origin: ['https://koalataskmanager.netlify.app', 'http://localhost5173'],
     credentials: true
 })) 
 app.use(express.urlencoded({extended: true}))
