@@ -1,0 +1,15 @@
+GET http://localhost:7000
+
+###
+POST http://localhost:7000/api/user/login
+Content-Type: application/json
+
+{
+    "email": "nziokamtk@gmail.com",
+    "password": "1234567."
+}
+
+###
+POST http://localhost:7000/api/tasks/tm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MDBmYTkwOTQxZDM1NTI2MTcxMTk1NyIsImlhdCI6MTc2MTg0MDMwMiwiZXhwIjoxNzYyMDEzMTAyfQ.5sw9yyJfWujez65Q1-_l_-bo5-C5XjyXoy2v4GZyhek
