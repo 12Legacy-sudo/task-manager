@@ -7,7 +7,7 @@ import userRouter from './routes/userRoute.js'
 import taskRouter from './routes/taskRoute.js'
 
 const app = express ()
-const port = process.env.PORT || 7000;
+const port = process.env.PORT || 7001;
 
 //MIDDLEWARE
 app.use(express.json())
